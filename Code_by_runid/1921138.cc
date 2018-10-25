@@ -1,11 +1,11 @@
-#include<stdio.h>
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    printf("%d",n);
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d",n);
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1257

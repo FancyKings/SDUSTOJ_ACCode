@@ -1,24 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-long long fib(int n,double a,double b)
-{
-    if(n==0) return a;
-    return fib(n-1,b,a+b);
-}
+long long fib(int n,double a,double b)
+{
+    if(n==0) return a;
+    return fib(n-1,b,a+b);
+}
 
-long long Fibonacci(int n)
-{
-    fib(n,1,1);
-}
+long long Fibonacci(int n)
+{
+    fib(n,1,1);
+}
 
-int main()
-{
-    int n;
-    while(~scanf("%d",&n))
-    printf("%lld\n",Fibonacci(n));
-    return 0;
-}
+int main()
+{
+    int n;
+    while(~scanf("%d",&n))
+    printf("%lld\n",Fibonacci(n));
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2174

@@ -1,12 +1,12 @@
-#include<stdio.h>
-#include<math.h>
-int main()
-{
-    double i;
-    scanf("%lf",&i);
-    printf("%g\n",log(i)/log(2));
-    return 0;
-}
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double i;
+    scanf("%lf",&i);
+    printf("%g\n",log(i)/log(2));
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1016

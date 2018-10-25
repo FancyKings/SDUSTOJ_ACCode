@@ -1,32 +1,32 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<ctype.h>
-#include<math.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<ctype.h>
+#include<math.h>
 
-int digit_sum(int num)
-{
-    int sum=num,sun;
-    do
-    {
-        sun=0;
-        int t;
-        for(t=sum;t>0;t/=10)
-        {
-            sun+=t%10;
-            sum=sun;
-        }
-    }while(sum>=10);
-    return sun;
-}
+int digit_sum(int num)
+{
+    int sum=num,sun;
+    do
+    {
+        sun=0;
+        int t;
+        for(t=sum;t>0;t/=10)
+        {
+            sun+=t%10;
+            sum=sun;
+        }
+    }while(sum>=10);
+    return sun;
+}
 
 
-int main()
-{
-    int n;
-    scanf("%d", &n);
-    printf("%d", digit_sum(n));
-    return 0;
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    printf("%d", digit_sum(n));
+    return 0;
 }
 /**************************************************************
 	Problem: 1271

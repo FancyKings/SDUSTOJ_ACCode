@@ -1,35 +1,35 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
-int is_primer(int num)
-{
-    if(num==1)
-        return 0;
-    int max=0;
-    max=sqrt(num);
-    int i;
-    for(i=2;i<=max;i++)
-    {
-        if(num%i==0)
-            return 0;
-    }
-    return 1;
-}
+int is_primer(int num)
+{
+    if(num==1)
+        return 0;
+    int max=0;
+    max=sqrt(num);
+    int i;
+    for(i=2;i<=max;i++)
+    {
+        if(num%i==0)
+            return 0;
+    }
+    return 1;
+}
 
 
 
-int main()
-{
-    int num;
-    while(scanf("%d", &num) != EOF)
-    {
-        if(is_primer(num))
-            puts("YES");
-        else
-            puts("NO");
-    }
-    return 0;
+int main()
+{
+    int num;
+    while(scanf("%d", &num) != EOF)
+    {
+        if(is_primer(num))
+            puts("YES");
+        else
+            puts("NO");
+    }
+    return 0;
 }
 /**************************************************************
 	Problem: 1233

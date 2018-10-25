@@ -1,22 +1,22 @@
-#include<stdio.h>
+#include<stdio.h>
 
-int main()
-{
-    double m,n,x;
+int main()
+{
+    double m,n,x;
 
-    scanf("%lf %lf %lf",&m,&n,&x);
-   // double a=0.88*m*x;
-    if((m*x)>=n)
-    {
-        //printf("%lf %lf %lf %lf\n",m,n,x*m,a);
-        printf("%.2lf",0.88*m*x);
-    }
-    else
-    {
-        printf("%.2lf",m*x);
-    }
-    return 0;
-}
+    scanf("%lf %lf %lf",&m,&n,&x);
+   // double a=0.88*m*x;
+    if((m*x)>=n)
+    {
+        //printf("%lf %lf %lf %lf\n",m,n,x*m,a);
+        printf("%.2lf",0.88*m*x);
+    }
+    else
+    {
+        printf("%.2lf",m*x);
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1009

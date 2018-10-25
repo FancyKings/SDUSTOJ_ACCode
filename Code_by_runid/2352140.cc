@@ -1,25 +1,25 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std;
+using namespace std;
 
-int main()
-{
-	int n;
-	vector<string> all;
-	cin >> n;
-	while (n--)
-	{
-		string s;
-		cin >> s;
-		all.push_back(s);
-	}
-	sort(all.begin(), all.end());
-	vector<string>::iterator p;
-	for (p = all.begin(); p != all.end(); p++)
-	{
-		cout << *p << endl;
-	}
-	return 0;
+int main()
+{
+	int n;
+	vector<string> all;
+	cin >> n;
+	while (n--)
+	{
+		string s;
+		cin >> s;
+		all.push_back(s);
+	}
+	sort(all.begin(), all.end());
+	vector<string>::iterator p;
+	for (p = all.begin(); p != all.end(); p++)
+	{
+		cout << *p << endl;
+	}
+	return 0;
 }
 /**************************************************************
 	Problem: 1355

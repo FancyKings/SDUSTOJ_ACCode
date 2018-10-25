@@ -1,23 +1,23 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-char cnvchar(char c)
-{
-    if(c>='a'&&c<='z')
-        c-=32;
-    else
-        c+=32;
-    return c;
-}
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char cnvchar(char c)
+{
+    if(c>='a'&&c<='z')
+        c-=32;
+    else
+        c+=32;
+    return c;
+}
 
 
-int main()
-{
-    char ch;
-    ch = getchar();
-    ch = cnvchar(ch);
-    putchar(ch);
-    return 0;
+int main()
+{
+    char ch;
+    ch = getchar();
+    ch = cnvchar(ch);
+    putchar(ch);
+    return 0;
 }
 /**************************************************************
 	Problem: 2046

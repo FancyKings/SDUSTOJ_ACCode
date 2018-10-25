@@ -1,16 +1,16 @@
-#include<stdio.h>
-int main()
-{
-    int j,a,b,i;
-    scanf("%d",&i);
-    for(j=0;j<i;j++)
-    {
-        scanf("%d %d",&a,&b);
-        printf("%d\n",a+b);
-    }
+#include<stdio.h>
+int main()
+{
+    int j,a,b,i;
+    scanf("%d",&i);
+    for(j=0;j<i;j++)
+    {
+        scanf("%d %d",&a,&b);
+        printf("%d\n",a+b);
+    }
 
-    return 0;
-}
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1021

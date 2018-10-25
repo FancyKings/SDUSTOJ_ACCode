@@ -1,27 +1,27 @@
-#include <stdio.h>
-int cnt=0;
+#include <stdio.h>
+int cnt=0;
 
-int add(cnt)
-{
-    if(!cnt)
-        return 0;
-    else
-    {
-        int a;
-        scanf("%d",&a);
-        cnt--;
-        return (a+add(cnt));
-    }
-}
+int add(cnt)
+{
+    if(!cnt)
+        return 0;
+    else
+    {
+        int a;
+        scanf("%d",&a);
+        cnt--;
+        return (a+add(cnt));
+    }
+}
 
-int main()
-{
-    int num;
-    scanf("%d",&num);
-    cnt = num;
-    printf("%d\n",add(num));
-    return 0;
-}
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    cnt = num;
+    printf("%d\n",add(num));
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1764

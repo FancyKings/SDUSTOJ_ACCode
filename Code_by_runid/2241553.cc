@@ -1,22 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main()
-{
-    int maxr;
-    while(~scanf("%d",&maxr))
-    {
-        int num=0;
-        int i=0;
-        for(i=1;i<=maxr;i++)
-        {
-            if(i%3==1&&i%4==2&&i%5==3)
-                printf("%d\n",i);
-        }
-    }
-    return 0;
-}
+int main()
+{
+    int maxr;
+    while(~scanf("%d",&maxr))
+    {
+        int num=0;
+        int i=0;
+        for(i=1;i<=maxr;i++)
+        {
+            if(i%3==1&&i%4==2&&i%5==3)
+                printf("%d\n",i);
+        }
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1275

@@ -1,23 +1,23 @@
-#include<stdio.h>
+#include<stdio.h>
 
 
 
-int main()
-{
-    unsigned long long k = 0;
-    while(scanf("%llu",&k)!=EOF)
-    {
-        if(k == 1)
-        {
-            printf("471\n");
-        }
-        else
-        {
-            printf("%llu471\n",k-1);
-        }
-    }
-    return 0;
-}
+int main()
+{
+    unsigned long long k = 0;
+    while(scanf("%llu",&k)!=EOF)
+    {
+        if(k == 1)
+        {
+            printf("471\n");
+        }
+        else
+        {
+            printf("%llu471\n",k-1);
+        }
+    }
+    return 0;
+}
 
 
 

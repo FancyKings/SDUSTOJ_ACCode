@@ -1,11 +1,11 @@
-#include<stdio.h>
-int main()
-{
-    double r;
-    scanf("%lf",&r);
-    printf("Area: %lf\nPerimeter: %lf",3.14*r*r,2*3.14*r);
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    double r;
+    scanf("%lf",&r);
+    printf("Area: %lf\nPerimeter: %lf",3.14*r*r,2*3.14*r);
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1003

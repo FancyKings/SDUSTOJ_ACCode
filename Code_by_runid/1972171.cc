@@ -1,34 +1,34 @@
-#include<stdio.h>
-int main()
-{
-    int i,j,m,n,ans,count=0,s[100]= {0};
-    scanf("%d %d",&m,&n);
-    printf("=====\n");
-    for(i=n; i>=m&&i>1; i--)
-    {
-        ans=1;
-        for(j=2; j<i; j++)
-        {
-            if(i%j==0)
-                ans=0;
-        }
-        if(ans)
-        {
-            s[count]=i;
-            count++;
-        }
-    }
-//    if(s[0])
-//        printf("=====\n");
-    for(i=0; i<count; i++)
-    {
-        printf("%d\n",s[i]);
-    }
-    printf("=====\n");
-//    if(s[0])
-//        printf("=====");
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    int i,j,m,n,ans,count=0,s[100]= {0};
+    scanf("%d %d",&m,&n);
+    printf("=====\n");
+    for(i=n; i>=m&&i>1; i--)
+    {
+        ans=1;
+        for(j=2; j<i; j++)
+        {
+            if(i%j==0)
+                ans=0;
+        }
+        if(ans)
+        {
+            s[count]=i;
+            count++;
+        }
+    }
+//    if(s[0])
+//        printf("=====\n");
+    for(i=0; i<count; i++)
+    {
+        printf("%d\n",s[i]);
+    }
+    printf("=====\n");
+//    if(s[0])
+//        printf("=====");
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1027

@@ -1,44 +1,44 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std;
-#define Data Demo
+using namespace std;
+#define Data Demo
 
-class Data{
-private:
-    int num;
-public:
-    Data()
-    {
-        num = 0;
-        cout << "A data " << num << " is created!" << endl;
-    }
-    Data(int d)
-    {
-        num = d;
-        cout << "A data " << num << " is created!" << endl;
-    }
-    ~Data()
-    {
-        cout << "A data " << num << " is erased!" << endl;
-    }
-    void show()
-    {
-        cout << "This is data " << num << endl;
-    }
-};
+class Data{
+private:
+    int num;
+public:
+    Data()
+    {
+        num = 0;
+        cout << "A data " << num << " is created!" << endl;
+    }
+    Data(int d)
+    {
+        num = d;
+        cout << "A data " << num << " is created!" << endl;
+    }
+    ~Data()
+    {
+        cout << "A data " << num << " is erased!" << endl;
+    }
+    void show()
+    {
+        cout << "This is data " << num << endl;
+    }
+};
 
 
-int main()
-{
-    Demo tmp(10), tmp2;
-    int d;
-    cin>>d;
-    Demo tmp3(d);
+int main()
+{
+    Demo tmp(10), tmp2;
+    int d;
+    cin>>d;
+    Demo tmp3(d);
 
-    tmp.show();
-    tmp2.show();
-    tmp3.show();
-    return 0;
+    tmp.show();
+    tmp2.show();
+    tmp3.show();
+    return 0;
 }
 /**************************************************************
 	Problem: 1809

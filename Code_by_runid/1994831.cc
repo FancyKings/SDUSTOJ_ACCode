@@ -1,22 +1,22 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<ctype.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<ctype.h>
 
-int put_sum(int a, int b)
-{
-    printf("%d\n",a+b);
-//    return 0;
+int put_sum(int a, int b)
+{
+    printf("%d\n",a+b);
+//    return 0;
 }
 
-int main()
-{
-    int a, b;
+int main()
+{
+    int a, b;
 
-    while(scanf("%d%d", &a, &b) != EOF)
-        put_sum(a, b);
+    while(scanf("%d%d", &a, &b) != EOF)
+        put_sum(a, b);
 
-    return 0;
+    return 0;
 }
 /**************************************************************
 	Problem: 1464

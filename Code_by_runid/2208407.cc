@@ -1,29 +1,29 @@
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-#include <math.h>
-int CASE = 0;
-int main()
-{
-    int num;
-    while(~scanf("%d" , &num))
-    {
-        int left;
-        while (num--)
-        {
-            scanf("%d" , &left);
-            int i;
-            printf("case %d : ", ++CASE);
-            for(i = 0; i < left ;i++)
-            {
-                printf("|");
-            }
-            printf("\n");
-        }
-        CASE = 0;
-    }
-	return 0;
-}
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+int CASE = 0;
+int main()
+{
+    int num;
+    while(~scanf("%d" , &num))
+    {
+        int left;
+        while (num--)
+        {
+            scanf("%d" , &left);
+            int i;
+            printf("case %d : ", ++CASE);
+            for(i = 0; i < left ;i++)
+            {
+                printf("|");
+            }
+            printf("\n");
+        }
+        CASE = 0;
+    }
+	return 0;
+}
 
 /**************************************************************
 	Problem: 1496

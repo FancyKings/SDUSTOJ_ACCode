@@ -1,24 +1,24 @@
-#include <stdio.h>
+#include <stdio.h>
 
 
-void recursive()
-{
-    char c;
+void recursive()
+{
+    char c;
 
-    if((c = getchar()) != EOF)
-    {
-        recursive();
-    }
-    if(c != EOF)
-        putchar(c);
+    if((c = getchar()) != EOF)
+    {
+        recursive();
+    }
+    if(c != EOF)
+        putchar(c);
 
 }
 
-int main()
-{
-    recursive();
-    return 0;
-}
+int main()
+{
+    recursive();
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1466

@@ -1,25 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int digits(int num)
-{
-    int cnt=0;
-    if(num<0)
-        num=-num;
-    while(num/10!=0)
-    {
-        cnt++;
-        num/=10;
-    }
-    return cnt+1;
-}
+int digits(int num)
+{
+    int cnt=0;
+    if(num<0)
+        num=-num;
+    while(num/10!=0)
+    {
+        cnt++;
+        num/=10;
+    }
+    return cnt+1;
+}
 
 
-int main()
-{
-    int num;
-    scanf("%d", &num);
-    printf("%d\n", digits(num));
+int main()
+{
+    int num;
+    scanf("%d", &num);
+    printf("%d\n", digits(num));
 }
 /**************************************************************
 	Problem: 1473

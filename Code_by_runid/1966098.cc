@@ -1,19 +1,19 @@
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-    char c;
-    scanf("%c",&c);
-    if(c=='A'||c=='a'||c=='e'||c=='E'||c=='I'||c=='i'||c=='o'||c=='O'||c=='U'||c=='u')
-    {
-        printf("yes");
-    }
-    else
-    {
-        printf("no");
-    }
-    return 0;
-}
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char c;
+    scanf("%c",&c);
+    if(c=='A'||c=='a'||c=='e'||c=='E'||c=='I'||c=='i'||c=='o'||c=='O'||c=='U'||c=='u')
+    {
+        printf("yes");
+    }
+    else
+    {
+        printf("no");
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1347

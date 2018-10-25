@@ -1,33 +1,33 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std;
+using namespace std;
 
-class Char{
-public:
-    char c;
-    Char(char a):c(a){};
-    char change(){
-        if(c >= 'a' && c <= 'z'){
-            return (c - 32);
-        }
-        else if(c >= 'A' && c <= 'Z'){
-            return (c + 32);
-        }
-        else
-            return c;
-    }
-};
+class Char{
+public:
+    char c;
+    Char(char a):c(a){};
+    char change(){
+        if(c >= 'a' && c <= 'z'){
+            return (c - 32);
+        }
+        else if(c >= 'A' && c <= 'Z'){
+            return (c + 32);
+        }
+        else
+            return c;
+    }
+};
 
-int main()
-{
-    char ch;
-    while(cin>>ch)
-    {
-        Char c(ch);
-        cout<<c.change()<<endl;
-    }
-    return 0;
-}
+int main()
+{
+    char ch;
+    while(cin>>ch)
+    {
+        Char c(ch);
+        cout<<c.change()<<endl;
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2091

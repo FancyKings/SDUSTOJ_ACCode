@@ -1,21 +1,21 @@
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-    char l[100],e[100];
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char l[100],e[100];
 
-    gets(l);
-    gets(e);
-    if(strlen(l)>=strlen(e))
-    {
-        printf("%s\n%s",l,e);
-    }
-    else
-    {
-        printf("%s\n%s",e,l);
-    }
-    return 0;
-}
+    gets(l);
+    gets(e);
+    if(strlen(l)>=strlen(e))
+    {
+        printf("%s\n%s",l,e);
+    }
+    else
+    {
+        printf("%s\n%s",e,l);
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1017

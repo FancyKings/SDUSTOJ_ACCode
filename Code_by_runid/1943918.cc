@@ -1,11 +1,11 @@
-#include<stdio.h>
-int main()
-{
-    int qu,qian,hou;
-    scanf("(0%d)%d-%d",&qu,&qian,&hou);
-    printf("0086%d%d%d",qu,qian,hou);
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    int qu,qian,hou;
+    scanf("(0%d)%d-%d",&qu,&qian,&hou);
+    printf("0086%d%d%d",qu,qian,hou);
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1014

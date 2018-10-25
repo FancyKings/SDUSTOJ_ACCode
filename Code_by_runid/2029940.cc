@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-    int i;
-    while(scanf("%d",&i)!=EOF)
-    {
-        printf("0\n");
-    }
-    return 0;
-}
+int main()
+{
+    int i;
+    while(scanf("%d",&i)!=EOF)
+    {
+        printf("0\n");
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2144

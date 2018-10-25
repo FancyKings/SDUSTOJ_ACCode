@@ -1,24 +1,24 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std;
-typedef long long LL;
+using namespace std;
+typedef long long LL;
 
-class Difficult{
-public:
-    int t;
-    Difficult(int a = 0):t(a){};
-    void show(){
-        cout << ((t >= 0)?(t):(-t)) << endl;
-    }
-};
+class Difficult{
+public:
+    int t;
+    Difficult(int a = 0):t(a){};
+    void show(){
+        cout << ((t >= 0)?(t):(-t)) << endl;
+    }
+};
 
-int main()
-{
-    int a;
-    cin>>a;
-    Difficult difficult(a);
-    difficult.show();
-    return 0;
+int main()
+{
+    int a;
+    cin>>a;
+    Difficult difficult(a);
+    difficult.show();
+    return 0;
 }
 /**************************************************************
 	Problem: 2221

@@ -1,49 +1,49 @@
-#include <stdio.h>
+#include <stdio.h>
 
-int myFloor(double data)
-{
-    int x;
-    if(data==(int)data)
-    {
-        x=data;
-    }
-    else if(data>0)
-    {
-        x=data;
-    }
-    else
-    {
-        x=data-1;
-    }
-    return x;
+int myFloor(double data)
+{
+    int x;
+    if(data==(int)data)
+    {
+        x=data;
+    }
+    else if(data>0)
+    {
+        x=data;
+    }
+    else
+    {
+        x=data-1;
+    }
+    return x;
 
-}
+}
 
-int myCeil(double data)
-{
-    int x;
-    if(data==(int)data)
-    {
-        x=data;
-    }
-    else if(data>0)
-    {
-        x=data+1;
-    }
-    else
-    {
-        x=data;
-    }
-    return x;
-}
+int myCeil(double data)
+{
+    int x;
+    if(data==(int)data)
+    {
+        x=data;
+    }
+    else if(data>0)
+    {
+        x=data+1;
+    }
+    else
+    {
+        x=data;
+    }
+    return x;
+}
 
- 
-int main()
-{
-    double data;
-    while(scanf("%lf", &data) != EOF)
-        printf("%d %d\n", myFloor(data), myCeil(data));
-    return 0;
+ 
+int main()
+{
+    double data;
+    while(scanf("%lf", &data) != EOF)
+        printf("%d %d\n", myFloor(data), myCeil(data));
+    return 0;
 }
 /**************************************************************
 	Problem: 1217

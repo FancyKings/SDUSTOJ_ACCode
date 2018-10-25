@@ -1,15 +1,15 @@
-#include<stdio.h>
-int main()
-{
-    double i=0,sum=0,k=0;
-    while(scanf("%lf",&i)!=EOF)
-    {
-        k++;
-        sum+=i;
-    }
-    printf("%.3lf\n",sum/k);
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    double i=0,sum=0,k=0;
+    while(scanf("%lf",&i)!=EOF)
+    {
+        k++;
+        sum+=i;
+    }
+    printf("%.3lf\n",sum/k);
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1417

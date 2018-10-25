@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-    unsigned long long m,n;
-    while (~scanf("%llu %llu",&m,&n))
-    {
-        printf("%llu %llu\n",m/n,m%n);
-    }
-    return 0;
-}
+int main()
+{
+    unsigned long long m,n;
+    while (~scanf("%llu %llu",&m,&n))
+    {
+        printf("%llu %llu\n",m/n,m%n);
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1635

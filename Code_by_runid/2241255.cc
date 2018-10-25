@@ -1,25 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-void get_nums(int *n)
-{
-    long long x;
-    int l=0;
-    while(~scanf("%lld",&x))
-    {
-        l+=1;
-    }
-    *n=l;
-}
+void get_nums(int *n)
+{
+    long long x;
+    int l=0;
+    while(~scanf("%lld",&x))
+    {
+        l+=1;
+    }
+    *n=l;
+}
 
 
-int main()
-{
-    int n;
-    get_nums(&n);
-    printf("%d\n", n);
-}
+int main()
+{
+    int n;
+    get_nums(&n);
+    printf("%d\n", n);
+}
 
 /**************************************************************
 	Problem: 1607

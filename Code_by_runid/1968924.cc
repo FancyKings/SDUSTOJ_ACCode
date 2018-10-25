@@ -1,18 +1,18 @@
-#include "stdio.h"
-#include "string.h"
-#include "stdlib.h"
-#include "math.h"
-int main(void)
-{
-    char s[28],l[28];
-    gets(s);
-    gets(l);
-    if (strlen(l)>strlen(s))
-        printf("%s\n%s\n",l,s);
-    else printf("%s\n%s\n",s,l);
-    return 0;
-    
-}
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
+#include "math.h"
+int main(void)
+{
+    char s[28],l[28];
+    gets(s);
+    gets(l);
+    if (strlen(l)>strlen(s))
+        printf("%s\n%s\n",l,s);
+    else printf("%s\n%s\n",s,l);
+    return 0;
+    
+}
 
 /**************************************************************
 	Problem: 1017

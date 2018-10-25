@@ -1,66 +1,66 @@
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <algorithm>
-#include <iostream>
-#include <sstream>
-#include <vector>
-#include <functional>
-#include <utility>
-#include <queue>
-#include <deque>
-#include <stack>
-#include <list>
-#include <map>
-#include <set>
-typedef long long LL;
-using namespace std;
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <string>
+#include <cmath>
+#include <algorithm>
+#include <iostream>
+#include <sstream>
+#include <vector>
+#include <functional>
+#include <utility>
+#include <queue>
+#include <deque>
+#include <stack>
+#include <list>
+#include <map>
+#include <set>
+typedef long long LL;
+using namespace std;
 
 
-template <class T>
-class MyArray {
-public:
-    vector<T> vec;
-    int si;
-    MyArray(int t): si(t) {
-        vec = vector<T> (si);
-    };
-    T& operator [](int u) {
-        return vec[u];
-    }
-    ~MyArray() {
-        // vec.clear();
-    };
-};
+template <class T>
+class MyArray {
+public:
+    vector<T> vec;
+    int si;
+    MyArray(int t): si(t) {
+        vec = vector<T> (si);
+    };
+    T& operator [](int u) {
+        return vec[u];
+    }
+    ~MyArray() {
+        // vec.clear();
+    };
+};
 
-int main()
-{
-    int k, m, n;
+int main()
+{
+    int k, m, n;
 
-    cin >> k;
-    MyArray<string> s(k);
-    for(int i = 0; i < k; i++)
-        cin >> s[i];
+    cin >> k;
+    MyArray<string> s(k);
+    for(int i = 0; i < k; i++)
+        cin >> s[i];
 
-    cin >> m >> n;
-    cout << s[m];
-    for(int i = m + 1; i <= n; i++)
-        cout << " " << s[i];
-    cout << endl;
+    cin >> m >> n;
+    cout << s[m];
+    for(int i = m + 1; i <= n; i++)
+        cout << " " << s[i];
+    cout << endl;
 
-    cin >> k;
-    MyArray<int> a(k);
-    for(int i = 0; i < k; i++)
-        cin >> a[i];
+    cin >> k;
+    MyArray<int> a(k);
+    for(int i = 0; i < k; i++)
+        cin >> a[i];
 
-    cin >> m >> n;
-    cout << a[m];
-    for(int i = m + 1; i <= n; i++)
-        cout << " " << a[i];
-    cout << endl;
-}
+    cin >> m >> n;
+    cout << a[m];
+    for(int i = m + 1; i <= n; i++)
+        cout << " " << a[i];
+    cout << endl;
+}
 
 /**************************************************************
 	Problem: 2108

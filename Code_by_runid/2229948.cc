@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <ctype.h>
-#define is_digit isdigit
+#include <stdio.h>
+#include <ctype.h>
+#define is_digit isdigit
 
 
-int main()
-{
-    char ch;
-    scanf("%c", &ch);
-    printf("%s",
-            ( is_digit(ch) ? "Yes, it is a digit."
-                          : "No, it is not a digit." )
-          );
-    return 0;
+int main()
+{
+    char ch;
+    scanf("%c", &ch);
+    printf("%s",
+            ( is_digit(ch) ? "Yes, it is a digit."
+                          : "No, it is not a digit." )
+          );
+    return 0;
 }
 /**************************************************************
 	Problem: 1277

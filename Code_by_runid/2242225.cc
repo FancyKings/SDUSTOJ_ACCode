@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
 
-int main()
-{
-    double x;
-    while(~scanf("%lf",&x))
-    {
-        printf("%.7lf\n",sqrt(x));
-    }
-    return 0;
-}
+int main()
+{
+    double x;
+    while(~scanf("%lf",&x))
+    {
+        printf("%.7lf\n",sqrt(x));
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2025

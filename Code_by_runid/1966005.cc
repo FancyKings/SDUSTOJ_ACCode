@@ -1,19 +1,19 @@
-#include<stdio.h>
-int main()
-{
-    double k=0;
-    double sum=0;
-    scanf("%lf",&k);
-    double t=k;
-    while(t--)
-    {
-        double i=0;
-        scanf("%lf",&i);
-        sum+=i;
-    }
-    printf("%.3lf\n",sum/k);
-    return 0;
-}
+#include<stdio.h>
+int main()
+{
+    double k=0;
+    double sum=0;
+    scanf("%lf",&k);
+    double t=k;
+    while(t--)
+    {
+        double i=0;
+        scanf("%lf",&i);
+        sum+=i;
+    }
+    printf("%.3lf\n",sum/k);
+    return 0;
+}
 
 /**************************************************************
 	Problem: 1416

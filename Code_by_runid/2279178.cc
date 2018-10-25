@@ -1,40 +1,40 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std;
+using namespace std;
 
-class Data{
-private:
-    double num;
-public:
-    Data()
-    {
-        num = 0;
-        cout << "Initialize a data 0" << endl;
-    }
-    Data(double d)
-    {
-        num = d;
-        cout << "Initialize a data " << d << endl;
-    }
-    double getValue() const
-    {
-        return num;
-    }
-    void showValue()
-    {
-        cout << num <<endl;
-    }
-};
+class Data{
+private:
+    double num;
+public:
+    Data()
+    {
+        num = 0;
+        cout << "Initialize a data 0" << endl;
+    }
+    Data(double d)
+    {
+        num = d;
+        cout << "Initialize a data " << d << endl;
+    }
+    double getValue() const
+    {
+        return num;
+    }
+    void showValue()
+    {
+        cout << num <<endl;
+    }
+};
 
 
-int main()
-{
-    Data data1;
-    double d;
-    cin>>d;
-    Data data(d);
-    cout<<data.getValue()<<endl;
-    data.showValue();
+int main()
+{
+    Data data1;
+    double d;
+    cin>>d;
+    Data data(d);
+    cout<<data.getValue()<<endl;
+    data.showValue();
 }
 /**************************************************************
 	Problem: 2050

@@ -1,14 +1,14 @@
-#include <stdio.h>
-#include <string.h>
-char s[2000];
-int main()
-{
-    while(gets(s)!=NULL)
-    {
-        printf("éè¦çäºæéè¦çäºæéè¦çäºæ\n");
-    }
-    return 0;
-}
+#include <stdio.h>
+#include <string.h>
+char s[2000];
+int main()
+{
+    while(gets(s)!=NULL)
+    {
+        printf("éè¦çäºæéè¦çäºæéè¦çäºæ\n");
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2042

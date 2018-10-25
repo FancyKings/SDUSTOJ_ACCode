@@ -1,21 +1,21 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-long long x;
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+long long x;
 
-int main()
-{
-    while(~scanf("%lld",&x))
-    {
-        double m=x/1024.0;
-        printf("%lldK\n",(long long)m);
-        m/=1024;
-        printf("%.02lfM\n",m);
-        m/=1024;
-        printf("%.02lfG\n",m);
-    }
-    return 0;
-}
+int main()
+{
+    while(~scanf("%lld",&x))
+    {
+        double m=x/1024.0;
+        printf("%lldK\n",(long long)m);
+        m/=1024;
+        printf("%.02lfM\n",m);
+        m/=1024;
+        printf("%.02lfG\n",m);
+    }
+    return 0;
+}
 
 /**************************************************************
 	Problem: 2040
