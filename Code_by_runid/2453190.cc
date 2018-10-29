@@ -114,11 +114,11 @@ public:
 	void showTotalArea(string s) {
 		unsigned int l = usrvec.size();
 		int flag = -1;
-		// å§åå¹éå¤±è´¥âTomâ
+		// 姓名匹配失败“Tom”
 		for (unsigned int i = 0; i < l; i++) {
 			U  = usrvec[i];
 			string t = U->name;
-			// cout << t << "++++++++++" << s << endl;// æ­£å¨å¹éä¸²
+			// cout << t << "++++++++++" << s << endl;// 正在匹配串
 			if (s == t) {
 				flag = i;
 				break;
@@ -135,7 +135,7 @@ public:
 	friend istream& operator >> (istream& in, UserList& usr) {
 		int N;
 		in >> N;
-		for (int i = 0; i < N; i++) {// N ä¸ªç¨æ·
+		for (int i = 0; i < N; i++) {// N 个用户
 			string name;
 			int M;
 			in >> name >> M;
@@ -152,10 +152,10 @@ public:
 					double a;
 					in >> a;
 					usr.S = new Circle(a);
-				}// ç¨æ·è¾å¥æ°æ®åå§åå®æ¯
-				usr.U->shapevec.push_back(usr.S);// ç¨æ·èªå®ä¹å¾å½¢åå¥å¤±è´¥-ãæå
+				}// 用户输入数据初始化完毕
+				usr.U->shapevec.push_back(usr.S);// 用户自定义图形压入失败->成功
 			}
-			usr.usrvec.push_back(usr.U);// å°è¯åå¥ç¨æ·ç±»å@æå
+			usr.usrvec.push_back(usr.U);// 尝试压入用户类型@成功
 		}
 		return in;
 	}
@@ -163,18 +163,18 @@ public:
 	// Loading-Waitting
 	friend ostream& operator << (ostream& out, UserList usr) {
 		// out << "Loading Writting--- --- --- --- --- --- --- ---" << endl;
-		unsigned int l = usr.GetSize();// ç¨æ·è¡¨åé¿åº¦
+		unsigned int l = usr.GetSize();// 用户表列长度
 		// cout << l << " IS L " << endl;
-		vector<User*> V = usr.usrvec;// ç¨æ·åè¡¨
+		vector<User*> V = usr.usrvec;// 用户列表
 		for (unsigned int i = 0; i < l; i++) {
-			User* P = V[i]; // ååºæä¸ä¸ªç¨æ·
-			string name = P->name;// è·åç¨æ·å§å
+			User* P = V[i]; // 取出某一个用户
+			string name = P->name;// 获取用户姓名
 			cout << name << " : ";
-			vector<Shape*> T = P->shapevec;// ååºç¨æ·å®ä¹å¾å½¢åè¡¨
+			vector<Shape*> T = P->shapevec;// 取出用户定义图形列表
 			unsigned int ll = T.size();
 			for (unsigned int k = 0; k < ll; k++) {
-				Shape* SP = T[k];// æä¸ä¸ªå¾å½¢
-				//æç±»åè°ç¨å½æ°@BUG:åå¼è¾åº@ä¿®å¤
+				Shape* SP = T[k];// 某一个图形
+				//按类型调用函数@BUG:单值输出->修复
 				if (k) {
 					cout << ",";
 					SP->prnt();
@@ -189,7 +189,7 @@ public:
 	}
 };
 
-// ææéæåéåå§åå¼å§
+// 所有静态变量初始化开始
 int Shape::cntOfShapes = 0;
 int Rectangle::cntOfRects = 0;
 int Circle::cntOfCircles = 0;
