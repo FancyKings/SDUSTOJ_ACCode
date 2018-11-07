@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-//ä¸æ¬¡åé¢ä¸å®åå¨èå­ï¼ï¼ï¼æè¸ï¼ï¼ï¼
+//下次做题一定先动脑子！！！打脸！！！
 int main()
 {
     double a,b,c;
@@ -72,7 +72,7 @@ int main()
                     printf("+%.6gi, %.6g-%.6gi\n",-x,s,-x);
                 }
                 if(x==1||x==-1)printf("+i, %.6g-i\n");
-
+ 
             }
             else
             {
@@ -88,13 +88,12 @@ int main()
     }
     return 0;
 }
-
+ 
 /**************************************************************
-	Problem: 1040
-	User: 201701060705
-	Language: C
-	Result: Accepted
-	Time:0 ms
-	Memory:760 kb
+    Problem: 1040
+    User: 201701060705
+    Language: C
+    Result: Accepted
+    Time:0 ms
+    Memory:760 kb
 ****************************************************************/
-
